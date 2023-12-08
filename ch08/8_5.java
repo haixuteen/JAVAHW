@@ -26,7 +26,7 @@ class CBox
    }
 }
 
-public class 8_5
+public class EX05
 {
    public static void main(String args[])
    {
