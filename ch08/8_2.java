@@ -4,7 +4,7 @@ class Cbbb
    double y;
 }
 
-public class 8_2
+public class EX02
 {
    public static void main(String args[])
    {
