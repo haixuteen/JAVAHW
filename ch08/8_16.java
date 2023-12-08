@@ -1,21 +1,21 @@
 class CSphere
 {
-   private int x;          // 圓心的x座標
-   private int y;          // 圓心的y座標
-   private int z;          // 圓心的z座標
-   private int radius;    // 圓球的半徑
+   private int x;          
+   private int y;          
+   private int z;          
+   private int radius;    
 
-   void setLocation(int a,int b,int c) // 設定圓心的位置
+   void setLocation(int a,int b,int c) 
    {
       x=a;
       y=b;
       z=c;
    }
-   void setRadius(int r)   // 設定半徑
+   void setRadius(int r)   
    {
       radius=r;
    }
-   double surfaceArea()    // 傳回表面積
+   double surfaceArea()    
    {
       return 4*3.14*radius*radius*radius;
    }
